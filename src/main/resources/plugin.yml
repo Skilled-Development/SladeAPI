@@ -1,4 +1,4 @@
 name: SladeAPI
 version: '${project.version}'
-main: sladeapi.club.skilled.slade.api.SladeAbilityAPI
+main: SladeAbilityAPI
 authors: [Mansitoh, Regresed, 7ev]

@@ -1,4 +1,4 @@
-package sladeapi.club.skilled.slade.utils;
+package club.skilled.slade.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

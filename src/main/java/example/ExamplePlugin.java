@@ -1,8 +1,3 @@
-# SladeAPI
- Slade Ability API
-
-Example
-```java
 package example;
 
 import club.skilled.slade.api.SladeAbilityAPI;

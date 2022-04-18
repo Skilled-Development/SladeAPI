@@ -1,4 +1,4 @@
-package sladeapi.club.skilled.slade.api.cooldown;
+package club.skilled.slade.api.cooldown;
 
 import org.bukkit.entity.Player;
 

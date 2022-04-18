@@ -1,14 +1,12 @@
-package sladeapi.club.skilled.slade.api.claim;
+package club.skilled.slade.api.claim;
 
+import club.skilled.slade.api.ability.Ability;
 import lombok.Getter;
 import lombok.Setter;
 import org.bukkit.Location;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
-import sladeapi.club.skilled.slade.api.ability.Ability;
-import sladeapi.club.skilled.slade.utils.Cuboid;
+import club.skilled.slade.utils.Cuboid;
 
 import java.util.*;
 

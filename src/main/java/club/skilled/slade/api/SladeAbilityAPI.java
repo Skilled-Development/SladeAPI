@@ -1,15 +1,14 @@
-package sladeapi.club.skilled.slade.api;
+package club.skilled.slade.api;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.java.JavaPlugin;
-import sladeapi.club.skilled.slade.api.ability.Ability;
-import sladeapi.club.skilled.slade.api.claim.Claim;
-import sladeapi.club.skilled.slade.api.cooldown.GlobalCooldownManager;
+import club.skilled.slade.api.ability.Ability;
+import club.skilled.slade.api.claim.Claim;
+import club.skilled.slade.api.cooldown.GlobalCooldownManager;
+import org.bukkit.plugin.IllegalPluginAccessException;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public final class SladeAbilityAPI  {
 
@@ -19,7 +18,7 @@ public final class SladeAbilityAPI  {
      * @return
      */
     public List<Ability> getAbilityActive(Player player) {
-        return new ArrayList<>();
+        throw new IllegalPluginAccessException("SladeAPI is not registered");
     }
 
     /**
@@ -27,7 +26,7 @@ public final class SladeAbilityAPI  {
      * @return
      */
     public GlobalCooldownManager getGlobalCooldown() {
-        return null;
+        throw new IllegalPluginAccessException("SladeAPI is not registered");
     }
 
     /**
@@ -37,7 +36,7 @@ public final class SladeAbilityAPI  {
      * @return
      */
     public boolean canUseOnLocation(Ability ability, Location loc){
-        return true;
+        throw new IllegalPluginAccessException("SladeAPI is not registered");
     }
 
     /**
@@ -45,8 +44,7 @@ public final class SladeAbilityAPI  {
      * @return
      */
     public List<Claim> getClaimList(){
-        //TODO: Implement
-        return new ArrayList<>();
+        throw new IllegalPluginAccessException("SladeAPI is not registered");
     }
 
     /**
@@ -55,6 +53,7 @@ public final class SladeAbilityAPI  {
      * @param claim
      */
     public void addAbilityToClaim(Ability ability,Claim claim){
+        throw new IllegalPluginAccessException("SladeAPI is not registered");
     }
 
     /**
@@ -63,5 +62,6 @@ public final class SladeAbilityAPI  {
      * @param claim
      */
     public void removeAbilityToClaim(Ability ability,Claim claim){
+        throw new IllegalPluginAccessException("SladeAPI is not registered");
     }
 }
