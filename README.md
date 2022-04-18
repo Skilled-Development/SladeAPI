@@ -1,0 +1,2 @@
+# SladeAPI
+ Slade Ability API
